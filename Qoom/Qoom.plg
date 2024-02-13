@@ -1,0 +1,191 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QQSpook - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2CA.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_USRDLL" /D "QQSPOOK_EXPORTS" /Fp"Debug/QQSpook.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Project\Dream\Src\Qoom\Common\GlobalDef.cpp"
+"F:\Project\Dream\Src\Qoom\Dlls\QQSpook\QQSpook.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2CA.tmp" 
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2CB.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_USRDLL" /D "QQSPOOK_EXPORTS" /Fp"Debug/QQSpook.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Project\Dream\Src\Qoom\Dlls\QQSpook\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2CB.tmp" 
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2CC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/QQSpook.pdb" /debug /machine:I386 /out:"../../bin/QQSpook.dll" /implib:"Debug/QQSpook.lib" /pdbtype:sept 
+.\Debug\GlobalDef.obj
+.\Debug\QQSpook.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2CC.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+GlobalDef.cpp
+QQSpook.cpp
+Linking...
+   Creating library Debug/QQSpook.lib and object Debug/QQSpook.exp
+<h3>
+--------------------Configuration: Riched20 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_USRDLL" /D "RICHED20_EXPORTS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Project\Dream\Src\Qoom\Dlls\Richedit20\ImgHandler.cpp"
+"F:\Project\Dream\Src\Qoom\Dlls\Richedit20\RecvWin.cpp"
+"F:\Project\Dream\Src\Qoom\Dlls\Richedit20\Riched20.cpp"
+"F:\Project\Dream\Src\Qoom\Dlls\Richedit20\TxtHandler.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D0.tmp" 
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D1.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_USRDLL" /D "RICHED20_EXPORTS" /FR"Debug/" /Fp"Debug/Riched20.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Project\Dream\Src\Qoom\Dlls\Richedit20\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D1.tmp" 
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/Riched20.pdb" /debug /machine:I386 /def:".\Riched20.def" /out:"C:/Program Files/MSN Messenger/Riched20.dll" /implib:"Debug/Riched20.lib" /pdbtype:sept 
+.\Debug\ImgHandler.obj
+.\Debug\RecvWin.obj
+.\Debug\Riched20.obj
+.\Debug\StdAfx.obj
+.\Debug\TxtHandler.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D2.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ImgHandler.cpp
+f:\project\dream\src\qoom\dlls\richedit20\stdafx.h(23) : warning C4005: 'WINVER' : macro redefinition
+        e:\program files\microsoft platform sdk for windows xp sp2\include\windows.h(22) : see previous definition of 'WINVER'
+f:\project\dream\src\qoom\dlls\richedit20\stdafx.h(25) : warning C4005: '_WIN32_IE' : macro redefinition
+        e:\program files\microsoft platform sdk for windows xp sp2\include\prsht.h(19) : see previous definition of '_WIN32_IE'
+f:\project\dream\src\qoom\dlls\richedit20\imghandler.cpp(93) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+RecvWin.cpp
+f:\project\dream\src\qoom\dlls\richedit20\stdafx.h(23) : warning C4005: 'WINVER' : macro redefinition
+        e:\program files\microsoft platform sdk for windows xp sp2\include\windows.h(22) : see previous definition of 'WINVER'
+f:\project\dream\src\qoom\dlls\richedit20\stdafx.h(25) : warning C4005: '_WIN32_IE' : macro redefinition
+        e:\program files\microsoft platform sdk for windows xp sp2\include\prsht.h(19) : see previous definition of '_WIN32_IE'
+Riched20.cpp
+TxtHandler.cpp
+f:\project\dream\src\qoom\dlls\richedit20\stdafx.h(23) : warning C4005: 'WINVER' : macro redefinition
+        e:\program files\microsoft platform sdk for windows xp sp2\include\windows.h(22) : see previous definition of 'WINVER'
+f:\project\dream\src\qoom\dlls\richedit20\stdafx.h(25) : warning C4005: '_WIN32_IE' : macro redefinition
+        e:\program files\microsoft platform sdk for windows xp sp2\include\prsht.h(19) : see previous definition of '_WIN32_IE'
+Generating Code...
+Linking...
+   Creating library Debug/Riched20.lib and object Debug/Riched20.exp
+<h3>
+--------------------Configuration: MonitorService - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D6.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_USRDLL" /D "MONITORSERVICE_EXPORTS" /Fp"Debug/MonitorService.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Project\Dream\Src\Qoom\Common\GlobalDef.cpp"
+"F:\Project\Dream\Src\Qoom\Dlls\MonitorService\MonitorService.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D6.tmp" 
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D7.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_USRDLL" /D "MONITORSERVICE_EXPORTS" /Fp"Debug/MonitorService.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Project\Dream\Src\Qoom\Dlls\MonitorService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D7.tmp" 
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/MonitorService.pdb" /debug /machine:I386 /out:"../../bin/MonitorService.dll" /implib:"Debug/MonitorService.lib" /pdbtype:sept 
+.\Debug\GlobalDef.obj
+.\Debug\MonitorService.obj
+.\Debug\StdAfx.obj
+\Project\Dream\Src\Qoom\Dlls\MSNSpook\Debug\MSNSpook.lib
+\Project\Dream\Src\Qoom\Dlls\QQSpook\Debug\QQSpook.lib
+\Project\Dream\Src\Qoom\Dlls\Richedit20\Debug\Riched20.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2D8.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+GlobalDef.cpp
+MonitorService.cpp
+Linking...
+   Creating library Debug/MonitorService.lib and object Debug/MonitorService.exp
+<h3>
+--------------------Configuration: Qoom - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Qoom.res" /d "_DEBUG" /d "_AFXDLL" "F:\Project\Dream\Src\Qoom\Qoom\Qoom.rc"" 
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2DC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_AFXDLL" /Fp"Debug/Apparition.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Project\Dream\Src\Qoom\Qoom\ExitOptDlg.cpp"
+"F:\Project\Dream\Src\Qoom\Common\GlobalDef.cpp"
+"F:\Project\Dream\Src\Qoom\Qoom\HyperLink.cpp"
+"F:\Project\Dream\Src\Qoom\Qoom\Qoom.cpp"
+"F:\Project\Dream\Src\Qoom\Qoom\QoomDlg.cpp"
+"F:\Project\Dream\Src\Qoom\Qoom\QoomThread.cpp"
+"F:\Project\Dream\Src\Qoom\Qoom\QQParent.cpp"
+"F:\Project\Dream\Src\Qoom\Qoom\XTabCtrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2DC.tmp" 
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2DD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_AFXDLL" /Fp"Debug/Apparition.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Project\Dream\Src\Qoom\Qoom\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2DD.tmp" 
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2DE.tmp" with contents
+[
+psapi.lib /nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:"Debug/Qoom.pdb" /debug /machine:I386 /out:"../bin/Qoom.exe" /pdbtype:sept 
+.\Debug\ExitOptDlg.obj
+.\Debug\GlobalDef.obj
+.\Debug\HyperLink.obj
+.\Debug\Qoom.obj
+.\Debug\QoomDlg.obj
+.\Debug\QoomThread.obj
+.\Debug\QQParent.obj
+.\Debug\StdAfx.obj
+.\Debug\XTabCtrl.obj
+.\Debug\Qoom.res
+\Project\Dream\Src\Qoom\Dlls\MonitorService\Debug\MonitorService.lib
+\Project\Dream\Src\Qoom\Dlls\MSNSpook\Debug\MSNSpook.lib
+\Project\Dream\Src\Qoom\Dlls\QQSpook\Debug\QQSpook.lib
+\Project\Dream\Src\Qoom\Dlls\Richedit20\Debug\Riched20.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2DE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ExitOptDlg.cpp
+GlobalDef.cpp
+HyperLink.cpp
+Qoom.cpp
+QoomDlg.cpp
+QoomThread.cpp
+QQParent.cpp
+XTabCtrl.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Qoom.exe - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

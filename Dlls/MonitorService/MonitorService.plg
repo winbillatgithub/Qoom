@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Riched20 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2BE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/Riched20.pdb" /machine:I386 /def:".\Riched20.def" /out:"e:/Riched20.dll" /implib:"Release/Riched20.lib" 
+.\Release\ImgHandler.obj
+.\Release\RecvWin.obj
+.\Release\Riched20.obj
+.\Release\StdAfx.obj
+.\Release\TxtHandler.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2BE.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library Release/Riched20.lib and object Release/Riched20.exp
+LINK : warning LNK4089: all references to "GDI32.dll" discarded by /OPT:REF
+<h3>
+--------------------Configuration: MonitorService - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2C2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/MonitorService.pdb" /machine:I386 /out:"../../bin/MonitorService.dll" /implib:"Release/MonitorService.lib" 
+.\Release\GlobalDef.obj
+.\Release\MonitorService.obj
+.\Release\StdAfx.obj
+\Project\Dream\Src\Qoom\Dlls\MSNSpook\Release\MSNSpook.lib
+\Project\Dream\Src\Qoom\Dlls\QQSpook\Release\QQSpook.lib
+\Project\Dream\Src\Qoom\Dlls\Richedit20\Release\Riched20.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\swb_cn\LOCALS~1\Temp\RSP2C2.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library Release/MonitorService.lib and object Release/MonitorService.exp
+
+
+
+<h3>Results</h3>
+MonitorService.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

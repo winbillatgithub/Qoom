@@ -1,0 +1,98 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "MSNSpook"=.\Dlls\MSNSpook\MSNSpook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MonitorService"=.\Dlls\MonitorService\MonitorService.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MSNSpook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name QQSpook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Riched20
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "QQSpook"=.\Dlls\QQSpook\QQSpook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Qoom"=.\Qoom\Qoom.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MonitorService
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MSNSpook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name QQSpook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Riched20
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Riched20"=.\Dlls\Richedit20\Riched20.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
